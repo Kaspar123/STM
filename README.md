@@ -1,2 +1,2 @@
 # STM
-embedded software
+embedded software etc. (STM)
