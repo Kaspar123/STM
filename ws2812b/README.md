@@ -12,7 +12,8 @@ ws2812b contains several parts:
         convert number on strip to corresponding coordinate (x,y).  
         
            MAXPIX - total number of leds connected (e.g. 512 leds)  
-           BX - width of one building block (e.g. 8 leds)  
+           BX - width of one building block (e.g. 8 leds)
+               ![alt text](img1.jpg)
            BY - height of one building block (e.g. 32 leds)  
            X - width of the wanted window (e.g. 16, 2 x BX)  
            Y - height of the wanted window (e.g. 32, 1 x BY)  
