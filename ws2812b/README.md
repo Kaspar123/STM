@@ -1,7 +1,7 @@
 # ws2812b driver for STM32
 
 ws2812b contains several parts:
-   - #### layout.h
+   - ### layout.h
         Contains all math that is needed to convert coordinates to number on strip and  
         convert number on strip to corresponding coordinate (x,y).  
         
