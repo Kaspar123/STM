@@ -18,7 +18,7 @@ ws2812b contains several parts:
            Y - height of the wanted window (e.g. 32, 1 x BY)  
            
        <img src="img6.jpg" alt="Drawing" width="200px"/>
-       <img src="img2.jpg" alt="Drawing" width="200px"/>
+       <img src="img3.jpg" alt="Drawing" width="150px"/>
        <img src="img4.jpg" alt="Drawing" width="200px"/>
        <img src="img5.jpg" alt="Drawing" width="200px"/>
         
