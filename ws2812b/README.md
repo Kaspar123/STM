@@ -12,7 +12,9 @@ ws2812b contains several parts:
            Y - height of the wanted window (e.g. 32, 1 x BY)  
         
          Every led is defined as RGB struct. Strip is defined as array of RGB structs.  
-         Defining parmeters BX, BY, X, Y allows to convert coordinate (X,Y) to index of RGB struct array.  
+         Defining parmeters BX, BY, X, Y allows to convert coordinate (X,Y) to  
+         index of RGB struct array.  
+         
          convert(10, 20) --> 162 (e.g. 162th led in strip)  
     
   - ### operations.h
