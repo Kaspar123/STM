@@ -19,7 +19,6 @@ ws2812b contains several parts:
            
        <img src="img6.jpg" alt="Drawing" width="200px"/>
        <img src="img2.jpg" alt="Drawing" width="200px"/>
-       <img src="img3.jpg" alt="Drawing" width="200px"/>
        <img src="img4.jpg" alt="Drawing" width="200px"/>
        <img src="img5.jpg" alt="Drawing" width="200px"/>
         
