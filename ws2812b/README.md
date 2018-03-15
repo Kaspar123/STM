@@ -5,7 +5,8 @@ ws2812b contains several parts:
   - ### operations.h
         contains functions to render framebuffer and operate with leds
   - ### text.h
-        contains definitions of letters and special symbols. All letters are represented with 5 bytes. For example letter A is represented as:
+        Contains definitions of letters and special symbols.  
+        All letters are represented with 5 bytes. For example letter A is represented as:  
     Each number is hexadecimal representation on corresponding column, starting from the top of the letter.  
     A = { 0x3F, 0x48, 0x48, 0x48, 0x3F }
     
@@ -25,6 +26,7 @@ ws2812b contains several parts:
     Letters can be visualized using ***print_small_letter()*** or ***print_large_letter()*** defined in [operations.h](operations.h)
 
   - #### signs.h
-        contains definition of 16x16 led symbols. Definitions of symbols follow the same logic as in text.h
+        Contains definition of 16x16 led symbols.  
+        Definitions of symbols follow the same logic as in text.h
 
     Signs can be visualized using ***print_sign()*** defined in [operations.h](operations.h)
