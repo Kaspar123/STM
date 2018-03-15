@@ -3,7 +3,8 @@
 ws2812b contains several parts:
 
    - ### config.h
-        Configuration file that is used to configure PWM signal.   
+        Configuration file that is used to configure PWM signal.  
+        ***GPIO_PWM_PIN*** is used to set output pin.  
         
    - ### layout.h
         Contains all math that is needed to convert coordinates to number on strip and  
