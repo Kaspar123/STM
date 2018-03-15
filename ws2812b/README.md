@@ -1,12 +1,12 @@
 # ws2812b driver for STM32
 
 ws2812b contains several parts:
-  - #### layout.h
-  - #### operations.h
+  - ### layout.h
+  - ### operations.h
         contains functions to render framebuffer and operate with leds
-  - #### text.h
+  - ### text.h
         contains definitions of letters and special symbols. All letters are represented with 5 bytes. For example letter A is represented as:
-    Each number is hexadecimal representation on corresponding column, starting from the top of the letter.
+    Each number is hexadecimal representation on corresponding column, starting from the top of the letter.  
     A = { 0x3F, 0x48, 0x48, 0x48, 0x3F }
     
     0 0 0 0 0  } - unused  
