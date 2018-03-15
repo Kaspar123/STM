@@ -3,7 +3,7 @@
 ws2812b contains several parts:
 
    - ## To use driver:
-      draw() method in [main.h](main.h) can be used. That method waits until dma has finished transfering  
+      draw() method in [main.c](main.c) can be used. That method waits until dma has finished transfering  
       framebuffer (pulses in [layout.h](layout.h)) and performs the function that is given as a parameter.
 
    - ### config.h
