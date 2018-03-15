@@ -3,7 +3,8 @@
 ws2812b contains several parts:
 
    - ## To use driver:
-      asdasd
+      draw() method in [main.h](main.h) can be used. That method waits until dma has finished transfering  
+      framebuffer (pulses in [layout.h](layout.h)) and performs the function that is given as a parameter.
 
    - ### config.h
         Configuration file that is used to configure PWM signal.  
