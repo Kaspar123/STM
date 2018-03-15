@@ -9,7 +9,7 @@ ws2812b contains several parts:
     Each number is hexadecimal representation on corresponding column, starting from the top of the letter.
     A = { 0x3F, 0x48, 0x48, 0x48, 0x3F }
     
-    0 0 0 0 0  } - unused
+    0 0 0 0 0  } - unused  
     0 ***1*** ***1*** ***1*** 0  
     ***1*** 0 0 0 ***1***  
     ***1*** 0 0 0 ***1***  
