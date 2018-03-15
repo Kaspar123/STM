@@ -17,12 +17,11 @@ ws2812b contains several parts:
            X - width of the wanted window (e.g. 16, 2 x BX)  
            Y - height of the wanted window (e.g. 32, 1 x BY)  
            
-       <img src="img1.jpg" alt="Drawing" width="150px"/>
-       <img src="img2.jpg" alt="Drawing" width="150px"/>
-       <img src="img3.jpg" alt="Drawing" width="150px"/>
-       <img src="img4.jpg" alt="Drawing" width="150px"/>
-       <img src="img5.jpg" alt="Drawing" width="150px"/>
-       <img src="img6.jpg" alt="Drawing" width="150px"/>
+       <img src="img6.jpg" alt="Drawing" width="200px"/>
+       <img src="img2.jpg" alt="Drawing" width="200px"/>
+       <img src="img3.jpg" alt="Drawing" width="200px"/>
+       <img src="img4.jpg" alt="Drawing" width="200px"/>
+       <img src="img5.jpg" alt="Drawing" width="200px"/>
         
          Every led is defined as RGB struct. Strip is defined as array of RGB structs.  
          Defining parmeters BX, BY, X, Y allows to convert coordinate (X,Y) to  
