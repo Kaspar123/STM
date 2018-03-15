@@ -12,10 +12,17 @@ ws2812b contains several parts:
         convert number on strip to corresponding coordinate (x,y).  
         
            MAXPIX - total number of leds connected (e.g. 512 leds)  
-           BX - width of one building block (e.g. 8 leds)   <img src="img2.jpg" alt="Drawing" width="150px"/>
+           BX - width of one building block (e.g. 8 leds)
            BY - height of one building block (e.g. 32 leds)  
            X - width of the wanted window (e.g. 16, 2 x BX)  
            Y - height of the wanted window (e.g. 32, 1 x BY)  
+           
+       <img src="img1.jpg" alt="Drawing" width="150px"/>
+       <img src="img2.jpg" alt="Drawing" width="150px"/>
+       <img src="img3.jpg" alt="Drawing" width="150px"/>
+       <img src="img4.jpg" alt="Drawing" width="150px"/>
+       <img src="img5.jpg" alt="Drawing" width="150px"/>
+       <img src="img6.jpg" alt="Drawing" width="150px"/>
         
          Every led is defined as RGB struct. Strip is defined as array of RGB structs.  
          Defining parmeters BX, BY, X, Y allows to convert coordinate (X,Y) to  
