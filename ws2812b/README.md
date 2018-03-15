@@ -10,7 +10,7 @@ ws2812b contains several parts:
    - ### layout.h
         Contains all math that is needed to convert coordinates to number on strip and  
         convert number on strip to corresponding coordinate (x,y).  
-        <img src="img2.jpg" alt="Drawing" style="width: 50px;"/>
+        <img src="img2.jpg" alt="Drawing" width="50px"/>
         
            MAXPIX - total number of leds connected (e.g. 512 leds)  
            BX - width of one building block (e.g. 8 leds)
