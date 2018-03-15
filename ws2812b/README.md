@@ -3,7 +3,8 @@
 ws2812b contains several parts:
 
    - ### config.h
-        Configuration file that is used to configure PWM signal.  
+        Configuration file that is used to configure PWM signal.
+        Config also contains all methods for ***GPIO, DMA, PWM Timer, Interrupt*** setup  
         ***GPIO_PWM_PIN*** is used to set output pin.  
         
    - ### layout.h
