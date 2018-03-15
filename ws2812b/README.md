@@ -1,4 +1,3 @@
-
 # ws2812b driver for STM32
 
 ws2812b contains several parts:
@@ -6,9 +5,10 @@ ws2812b contains several parts:
    - ## To use driver:
       draw() method in [main.c](main.c) can be used. That method waits until dma has finished transfering  
       framebuffer (pulses in [layout.h](layout.h)) and performs the function that is given as a parameter.  
-      clear() method in [main.c](main.c) can be used to set all leds to rgb(0,0,0).  
-      setLED() method in [main.c](main.c) can be used to set n-th led in framebuffer.  
-      setLEDxy() method in [main.c](main.c) can be used to set led positioned at (x,y) on framebuffer.
+      clear() method in [operations.c](operations.c) can be used to set all leds to rgb(0,0,0).  
+      setLED() method in [operations.c](operations.c) can be used to set n-th led in framebuffer.  
+      setLEDxy() method in [operations.c](operations.c) can be used to set led positioned at (x,y) on framebuffer.  
+      shiftLeft() / shiftRight() method in [operations.c](operations.c) can be used to shift the framebuffer in Y direction.
 
    - ### config.h
         Configuration file that is used to configure PWM signal.  
